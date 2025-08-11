@@ -12,8 +12,8 @@ categories = ["development-tools"]
 edition = "2021"
 
 [dependencies]
-reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+reqwest = { version = "0.12.22", default-features = false, features = ["rustls-tls", "json"] }
 
 [dev-dependencies]
-json = "0.12"
+json = "0.12.4"
 tokio = { version = "1", features = ["full"] }
